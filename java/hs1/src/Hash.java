@@ -7,7 +7,7 @@ import java.util.Map;
         HashMap<Integer,Integer> hm = new HashMap<>();
         for(int idx : arr){
             if(hm.containsKey(idx))
-                hm.put(idx, hm.get(idx)+1);
+                hm.put(idx, hm.gethm.get(idx)+1);
             else
                 hm.put(idx,1);
         }
