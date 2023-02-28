@@ -14,14 +14,13 @@ public class repeat2 {
         }
         for ( i = 0; i < n; i++) {
             if(hm.containsKey(arr[i])){
-                hm.put(arr[i],hm.get(arr[i])+1);
-                        if(hm.get(arr[i])==2){
-                            arr2.add(arr[i]);
+
+                        if(hm.get(arr[i])==1){
+                            hm.put(arr[i],hm.get(arr[i])+1);
+
                             count++;
                         }
-                        else if(hm.get(arr[i])>2){
 
-                        }
                         }
                         else{
                             hm.put(arr[i],1);
@@ -30,8 +29,9 @@ public class repeat2 {
 
         }
 System.out.println(count);
-        for(int a:arr2) {
-            System.out.print(a+" ");
+        for (Integer key: hm.keySet()){
+
+            System.out.println(hm.get(key));
         }
 
 
