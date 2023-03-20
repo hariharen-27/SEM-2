@@ -27,11 +27,11 @@ public class circle {
 
         circle c1 = new circle();
         // circle c2 = new circle(r);
-        c1.circle(r);
+        c1.cirlcle(r);
         System.out.println("Default Constructor Radius: " + c1.getRadius());
         System.out.println("Area: " + c1.getArea(c1.getRadius()));
-        System.out.println("Parameter Radius " + c1.getRadius());
-        System.out.println("Area: " + c1.getArea(c1.getRadius()));
+        System.out.println("Parameter Radius " + c2.getRadius());
+        System.out.println("Area: " + c2.getArea(c2.getRadius()));
 
 
     }
