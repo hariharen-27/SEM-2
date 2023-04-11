@@ -82,7 +82,7 @@ return 6;
 
 default :
 
-System.out.println(“Invalid month”);
+System.out.println("Invalid month");
 
 return -1;
 
@@ -120,7 +120,7 @@ else
 
 {
 
-System.out.println(“Invalid year code”);
+System.out.println("invalid ");
 
 return -1;
 
@@ -154,19 +154,19 @@ void calcDay(int result)
 
 switch(result){
 
-case 1 : System.out.println(“The day is Sunday”);break;
+case 1 : System.out.println("The day is Sunday");break;
 
-case 2 : System.out.println(“The day is Monday”break;
+case 2 : System.out.println("The day is Monday");break;
 
-case 3 : System.out.println(“The day is Tuesday”);break;
+case 3 : System.out.println("The day is Tuesday");break;
 
-case 4 : System.out.println(“The day is Wednesday”);break;
+case 4 : System.out.println("The day is Wednesday");break;
 
-case 5 : System.out.println(“The day is Thursday”);break;
+case 5 : System.out.println("The day is Thursday");break;
 
-case 6 : System.out.println(“The day is Friday”);break;
+case 6 : System.out.println("The day is Friday");break;
 
-case 0 : System.out.println(“The day is Saturday”);break;
+case 0 : System.out.println("The day is Saturday");break;
 
  
 
@@ -184,7 +184,7 @@ int mc,yc,yy,ryy,sum,result;
 
 Scanner sc=new Scanner(System.in);
 
-System.out.println(“Enter the date(mm/dd/yyyy): “);
+System.out.println("Enter the date(mm/dd/yyyy):");
 
 month=sc.nextInt();
 
