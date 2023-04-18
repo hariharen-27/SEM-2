@@ -6,7 +6,7 @@ public class iostream {
    
     public static void main(String[] args) throws IOException {
        
-        File inputFile = new File("Z:\\SEM 2\\java\\iostreams\\farrago.txt");
+        File inputFile = new File("farrago.txt");
         File outputFile = new File("outagain.txt");
        
         FileInputStream in = new FileInputStream(inputFile);
