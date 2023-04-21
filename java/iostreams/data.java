@@ -17,7 +17,7 @@ public class data {
         "Duke Juggling Dolls",
         "Java Pin",
         "Java Key Chain" };
-       
+        
         for (int i = 0; i < prices.length; i ++) {
             out.writeDouble(prices[i]);
             out.writeChar('\t');
