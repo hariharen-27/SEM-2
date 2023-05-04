@@ -29,9 +29,19 @@ public class demo{
         ThreadA a = new ThreadA();
         ThreadB b = new ThreadB();
         ThreadC c = new ThreadC();
-        a.start();
+        try{
+         a.start();
+         a.join();
+         Thread.sleep(5000);
         b.start();
+        b.join();
         c.start();
+
+        }
+        catch(Exception  e ){
+         System.out.println("exception caught");
+        }
+        
         System.out.println("... Multithreading is over ");
    }
 }
