@@ -38,6 +38,7 @@ public class Demonstration_112 {
        Thread t3 = new Thread(new ThreadZ());
        
        t1.start();
+      // t1.joins();
        t2.start();
        t3.start();
        
