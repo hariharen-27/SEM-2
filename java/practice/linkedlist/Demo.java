@@ -7,8 +7,8 @@ public class Demo {
         list.insertAtBeginning(3);
         list.insertAtBeginning(5);
         
-        list.insertAtPosition(7,10);
+        list.insertAtPosition(1,10);
         list.display();
-
+        
     }
 }
