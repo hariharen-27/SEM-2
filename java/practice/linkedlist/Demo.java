@@ -9,6 +9,9 @@ public class Demo {
         
         list.insertAtPosition(1,10);
         list.display();
-        
+        list.reverse();
+        System.out.println("kjdhfk");
+
+        list.display();
     }
 }
